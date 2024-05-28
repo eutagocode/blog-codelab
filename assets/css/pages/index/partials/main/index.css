@@ -50,6 +50,14 @@ main {
     width: 32px;
 }
 
+.main-container .card .card-header > img:hover,
+.heartClicked {
+    background-image: url("../../../../../docs/images/icon-heart.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .main-container .card h1 {
     font-family: var(--spacegrotesk);
     font-size: var(--fs-3);
