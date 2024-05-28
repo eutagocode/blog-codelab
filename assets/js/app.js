@@ -1,11 +1,11 @@
 const allHearts = document.querySelectorAll(".icon-heart");
 
 for (const heart of allHearts) {
-    heart.addEventListener("mouseover", () => {
-        heart.setAttribute("src", "./assets/docs/images/icon-heart.png");
-    });
-
-    heart.addEventListener("mouseout", () => {
-        heart.setAttribute("src", "./assets/docs/images/icon-heart.svg");
+    heart.addEventListener("click", () => {
+        if (heart.classList.contains("heartClicked")) {
+            heart.classList.remove("heartClicked");
+        } else {
+            heart.classList.add("heartClicked");
+        }
     });
 }
