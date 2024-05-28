@@ -7,6 +7,25 @@
     border: none;
 }
 
+::selection {
+    background-color: var(--color-beige);
+    color: var(--color-black);
+}
+
+::-webkit-scrollbar {
+    width: var(--size-1);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-dark-30);
+    border-radius: var(--size-3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: var(--size-3);
+}
+
 html,
 body {
     width: 100%;
