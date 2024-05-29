@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Desafio 1 - Blog</title>
+        <script src="https://unpkg.com/scrollreveal"></script>
         <link rel="stylesheet" href="./assets/css/index.css" />
+        <title>Desafio 1 - Blog</title>
     </head>
     <body>
-        <header class="header-page">
+        <header id="header-page" class="header-page">
             <div class="header-container">
                 <h1 class="logo">Code<span>Lab</span></h1>
                 <div class="search-area">
@@ -18,6 +19,7 @@
                         />
                     </button>
                     <input
+                        id="input-search"
                         type="text"
                         class="input-search"
                         placeholder="Pesquisar no blog"
@@ -27,7 +29,7 @@
         </header>
         <main>
             <div class="main-container">
-                <div class="card">
+                <div class="card card-1">
                     <header class="card-header">
                         <p>17 de ago, 2024</p>
                         <img
@@ -36,7 +38,7 @@
                             alt="Ícone de coração"
                         />
                     </header>
-                    <h1>
+                    <h1 class="title">
                         O que é linguagem de programação? Conheça as principais
                     </h1>
                     <p>
@@ -46,7 +48,7 @@
                         dispositivos tecnológicos vêm avançando.
                     </p>
                 </div>
-                <div class="card">
+                <div class="card card-2">
                     <header class="card-header">
                         <p>12 de jul, 2024</p>
                         <img
@@ -55,7 +57,7 @@
                             alt="Ícone de coração"
                         />
                     </header>
-                    <h1>
+                    <h1 class="title">
                         GitHub agora permite fazer login sem precisar de senha
                     </h1>
                     <p>
@@ -65,7 +67,7 @@
                         pode substituir a autenticação em dois fatores.
                     </p>
                 </div>
-                <div class="card">
+                <div class="card card-3">
                     <header class="card-header">
                         <p>21 de jun, 2024</p>
                         <img
@@ -74,7 +76,9 @@
                             alt="Ícone de coração"
                         />
                     </header>
-                    <h1>Por que os hiperlinks são azuis em sua maioria?</h1>
+                    <h1 class="title">
+                        Por que os hiperlinks são azuis em sua maioria?
+                    </h1>
                     <p>
                         Quem navega na internet, certamente já percebeu que ela
                         conta com diversos recursos para tornar a nossa vida
