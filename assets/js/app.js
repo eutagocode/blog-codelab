@@ -40,4 +40,4 @@ let sr = ScrollReveal({
 sr.reveal(".header-container", { origin: "top", delay: 500 });
 sr.reveal(".card-1", { origin: "left", delay: 600 });
 sr.reveal(".card-2", { origin: "right", delay: 700 });
-sr.reveal(".card-3", { origin: "bottom", delay: 800 });
+sr.reveal(".card-3", { origin: "left", delay: 800 });
