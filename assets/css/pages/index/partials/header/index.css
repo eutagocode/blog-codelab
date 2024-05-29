@@ -17,7 +17,7 @@
 }
 
 .header-container .logo {
-    font-size: var(--fs-4);
+    font-size: var(--fs-xl);
     font-family: var(--spacegrotesk);
     color: var(--color-primary);
     line-height: 52px;
@@ -56,13 +56,13 @@
     background-color: transparent;
     color: var(--color-white);
     font-family: var(--inter);
-    font-size: var(--fs-2);
+    font-size: var(--fs-md);
 }
 
 .header-container .input-search::placeholder {
     color: var(--color-gray);
     font-family: var(--inter);
-    font-size: var(--fs-2);
+    font-size: var(--fs-md);
 }
 
 /* Responsivo Computadores */

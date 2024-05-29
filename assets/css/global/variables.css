@@ -15,11 +15,11 @@
     --spacegrotesk: "SpaceGrotesk";
 
     /* Tamanhos de fontes */
-    --fs-xsm: 1rem;
-    --fs-1: 1rem;
-    --fs-2: 1.25rem;
-    --fs-3: 2rem;
-    --fs-4: 2.5rem;
+    --fs-xsm: 0.875rem;
+    --fs-sm: 1rem;
+    --fs-md: 1.25rem;
+    --fs-lg: 2rem;
+    --fs-xl: 2.5rem;
 
     /* Tamanhos */
     --size-1: 0.5rem;

@@ -42,7 +42,7 @@ main {
 
 .main-container .card .card-header > p {
     font-family: var(--inter);
-    font-size: var(--fs-1);
+    font-size: var(--fs-sm);
     line-height: 20px;
     color: var(--color-primary);
 }
@@ -62,14 +62,14 @@ main {
 
 .main-container .card h1 {
     font-family: var(--spacegrotesk);
-    font-size: var(--fs-3);
+    font-size: var(--fs-lg);
     line-height: 30px;
     color: var(--color-white);
 }
 
 .main-container .card > p {
     font-family: var(--inter);
-    font-size: var(--fs-2);
+    font-size: var(--fs-md);
     line-height: 32px;
     color: var(--color-gray);
 }
@@ -86,17 +86,17 @@ main {
     }
 
     .main-container .card .card-header > p {
-        font-size: var(--fs-1);
+        font-size: var(--fs-sm);
         line-height: 20px;
     }
 
     .main-container .card h1 {
-        font-size: var(--fs-2);
+        font-size: var(--fs-md);
         line-height: 30px;
     }
 
     .main-container .card > p {
-        font-size: var(--fs-1);
+        font-size: var(--fs-sm);
         line-height: 25px;
     }
 }
@@ -121,7 +121,7 @@ main {
 
     .main-container .card .card-header > p,
     .main-container .card > p {
-        font-size: 14px;
+        font-size: var(--fs-xsm);
         line-height: 20px;
     }
 }
@@ -139,12 +139,12 @@ main {
 
     .main-container .card .card-header > p,
     .main-container .card > p {
-        font-size: 14px;
+        font-size: var(--fs-xsm);
         line-height: 20px;
     }
 
     .main-container .card h1 {
-        font-size: var(--fs-1);
+        font-size: var(--fs-sm);
         line-height: 20px;
     }
 }
