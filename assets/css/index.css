@@ -1,4 +1,6 @@
+/* Importação dos estilos globais do navegador */
 @import url("./global/global.css");
 
+/* Importação dos estilos dos elementos da aplicação */
 @import url("./pages/index/partials/header/index.css");
 @import url("./pages/index/partials/main/index.css");

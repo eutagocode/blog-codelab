@@ -1,9 +1,11 @@
+/* Estilos da área do header */
 .header-page {
     width: 100%;
     height: 25%;
     background-color: var(--color-dark-20);
 }
 
+/* Estilos do container do header */
 .header-container {
     max-width: 1320px;
     width: 100%;
@@ -63,6 +65,7 @@
     font-size: var(--fs-2);
 }
 
+/* Responsivo Computadores */
 @media screen and (max-width: 1350px) {
     .header-container {
         max-width: 1140px;
@@ -70,12 +73,14 @@
     }
 }
 
+/* Responsivo Laptops */
 @media screen and (max-width: 992px) {
     .header-container {
         max-width: 960px;
     }
 }
 
+/* Responsivo Tablets */
 @media screen and (max-width: 768px) {
     .header-container {
         max-width: 720px;
@@ -83,6 +88,7 @@
     }
 }
 
+/* Responsivo Celulares */
 @media screen and (max-width: 576px) {
     .header-container {
         max-width: 100%;

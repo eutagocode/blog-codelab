@@ -1,9 +1,11 @@
+/* Estilos da área do conteúdo da página */
 main {
     height: 100%;
     width: 100%;
     padding: 50px 0;
 }
 
+/* Estilos do container do conteúdo da página */
 .main-container {
     max-width: 1320px;
     width: 100%;
@@ -72,6 +74,7 @@ main {
     color: var(--color-gray);
 }
 
+/* Responsivo Computadores */
 @media screen and (max-width: 1350px) {
     .main-container {
         max-width: 1140px;
@@ -98,12 +101,14 @@ main {
     }
 }
 
+/* Responsivo Laptops */
 @media screen and (max-width: 992px) {
     .main-container {
         max-width: 960px;
     }
 }
 
+/* Responsivo Tablets */
 @media screen and (max-width: 768px) {
     .main-container {
         max-width: 720px;
@@ -121,6 +126,7 @@ main {
     }
 }
 
+/* Responsivo Celulares */
 @media screen and (max-width: 576px) {
     .main-container {
         max-width: 100%;

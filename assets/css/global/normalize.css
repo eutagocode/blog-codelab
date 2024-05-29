@@ -1,3 +1,4 @@
+/* Reset do CSS */
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +8,13 @@
     border: none;
 }
 
+/* Alterando a cor da seleção */
 ::selection {
     background-color: var(--color-beige);
     color: var(--color-black);
 }
 
+/* Alterando a cor da scrollbar */
 ::-webkit-scrollbar {
     width: var(--size-1);
 }
@@ -26,6 +29,7 @@
     border-radius: var(--size-3);
 }
 
+/* Estilos do documento */
 html,
 body {
     width: 100%;

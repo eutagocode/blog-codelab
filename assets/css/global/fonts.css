@@ -1,3 +1,5 @@
+/* Importação das fontes e suas espessuras */
+
 @font-face {
     font-family: "Inter";
     src: url("../../docs/fonts/Inter-Medium.woff");
