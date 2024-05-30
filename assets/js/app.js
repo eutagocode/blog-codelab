@@ -7,11 +7,14 @@ const inputSearchElement = body.querySelector("#input-search");
 
 // Função para deixar o coração colorido ao clicar
 for (const heart of allHearts) {
+    const card = heart.parentElement.parentElement;
     heart.addEventListener("click", () => {
         if (heart.classList.contains("heartClicked")) {
             heart.classList.remove("heartClicked");
+            card.style.border = "2px solid #252529";
         } else {
             heart.classList.add("heartClicked");
+            card.style.border = "2px solid #e07b67";
         }
     });
 }
