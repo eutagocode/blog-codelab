@@ -3,7 +3,7 @@ const body = document.querySelector("body");
 // Chamando as tags utilizadas dentro da tag body
 const allHearts = body.querySelectorAll(".icon-heart");
 const allTitles = body.querySelectorAll(".title");
-const inputSearchElement = body.getElementById("input-search");
+const inputSearchElement = body.querySelector("#input-search");
 
 // Função para deixar o coração colorido ao clicar
 for (const heart of allHearts) {
